@@ -138,8 +138,8 @@
             align-items: center;
             justify-content: space-around;
             width: 90%;
-            height: 40vh;
-            margin: 5% 5% 30% 5%;
+            min-height: 30vh;
+            margin: 5% 5% 10% 5%;
 
             .structureDescription {
                 display: flex;
@@ -155,7 +155,7 @@
 
                 .galleryBtnResponsive {
                     cursor: pointer;
-                    margin-top: 3%;
+                    /* margin-top: 17%; */
                     width: 100%;
                     border-bottom: 1px solid #2e3033;
 
@@ -167,7 +167,7 @@
 
                 .structureTitle {
                     color: #2e3033;
-                    border: 150px;
+                    /* border: 150px; */
                     animation: titleAnimation 2s;
                 }
 
@@ -180,7 +180,7 @@
             }
 
             .structureImage {
-                padding: 5% 5% 5% 5%;
+                padding: 15% 5% 5% 5%;
                 height: 100%;
                 width: 100vw;
 
