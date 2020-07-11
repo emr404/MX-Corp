@@ -88,12 +88,12 @@
     .intro {
         display: flex;
         justify-content: space-around;
-        height: 60vh;
+        min-height: 60vh;
         background: url('../images/1.jpg');
         background-attachment: fixed;
 
         .introText {
-            padding-top: 10%;
+            padding-top: 5%;
             color: $secondaryColor;
             transition: 2s ease;
             transform: translateX(5vw);
@@ -131,7 +131,7 @@
         display: none;
     } 
     .responsiveMainSection {
-        margin-top: 10%;
+        margin-top: 5%;
 
 
         .structureContainer {
