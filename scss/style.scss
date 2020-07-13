@@ -13,6 +13,10 @@ body {
     background-color: $backgroundColor;
     color: $primaryColor;
 }
+a{
+    text-decoration: none;
+    
+}
 
 @import 'small';
 @import 'medium';

@@ -59,7 +59,7 @@
         display: flex;
         justify-content: space-around;
         background-color: $primaryColor;
-        height: 50vh;
+        min-height: 50vh;
 
         .introText {
             margin-top: 5%;
